@@ -1,7 +1,10 @@
 
 body {color: white;
 background-color: black;
-font-family: arial, helvetica, sans-serif; }
+font-family: arial, helvetica, sans-serif;
+text-align: center;
+}
+
 h1{text-align: center}
 /* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
 
@@ -11,7 +14,7 @@ body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
 p {padding:1em; line-height:2em;}
 
 body section.writing {
-    background-color:purple;
+    background-color:orange;
     margin:auto;
     padding:2em;
 
@@ -28,9 +31,8 @@ section.writing figure {
 
 section.writing div.analysis {
       flex:1; 
-
-    padding: 3vw;
-    background-color:maroon;
+    padding: 10px;
+    background-color:darkgrey;
     color:white;
     
 }
@@ -38,9 +40,9 @@ section.writing div.analysis {
 
 body section.gallery {
   width: 80%;
-    background-color: green; 
-    padding:2em; 
-    margin:auto; 
+    background-color: grey; 
+    padding:15em; 
+    margin:25px; 
     display:flex;
     flex-direction:row;
     }
@@ -53,13 +55,13 @@ body section.gallery {
 section.gallery figure {flex: 1; margin:auto; padding-top: 1vw; padding-bottom: 1vw; }
 figcaption {font-style: italic; font-size: smaller;}
 
-img.photo {max-width:500px; width:80%}
+img.photo {max-width:100%; width:80%}
 /* If I want to style ANY element with the class of "photo" I could just write 
  * .photo { }
  *  */
 
-ol {list-style-type: lower-alpha;
-padding: 5em;
+ol {list-style-type: circle;
+padding: 8em;
     
 }
 
@@ -96,7 +98,8 @@ a:active {
  }
 
  nav > img.photo {
-max-width:200px;
+max-width: 100%;
+max-height: 100%;
      flex:1;
  }
  
