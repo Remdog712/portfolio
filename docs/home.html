@@ -12,6 +12,10 @@
 
 body {
   margin: 0;
+  background-image: url("photos/space.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Style the header */
@@ -45,6 +49,27 @@ body {
   color: white;
    padding: 25px;
 }
+
+ .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
     
     </style>
   </head>
@@ -68,10 +93,29 @@ body {
       <h1> <strong>My Portfolio</strong></h1>
     </div>
     
+   
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+       
+        
+          <h2> About me</h2>
+          <p><p>HTML will be the death of me...</p>
+          
+        </div>
+      
+    
+    <div class="column" style="background-color:#bbb;">
+      
+      <figure>
+        <img src="photos/remilogo.png" alt="logoofmine" style="width:100%">
+        <figcaption>Me</figcaption>
+      </figure>
+      
+    </div>
+  </div>
+  
     
     
-    <h1> About me </h1>
-    <p>HTML will be the death of me...</p>
     
   </body>
   
