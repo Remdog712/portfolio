@@ -109,8 +109,8 @@ body section.writing {
 }
 
 section.writing figure {
-    flex:1;
-    padding: 3vw;
+    flex:3;
+    padding: 1vw;
     background-color:lemonchiffon;
 }
 
