@@ -111,7 +111,6 @@ body section.gallery {
 
 
 section.gallery figure {flex: 1; margin:auto; padding-top: 1vw; padding-bottom: 1vw; }
-
 figcaption {font-style: italic; font-size: smaller; color: black}
 
 img.photo {max-width:100%; width:80%}
