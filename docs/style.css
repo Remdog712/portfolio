@@ -1,150 +1,168 @@
 
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /* Style the header */
 .header {
-  background-color:grey;
-  padding: 1px;
-  text-align: center;
+    background-color: grey;
+    padding: 1px;
+    text-align: center;
 }
 
 /* Style the top navigation bar */
 .topnav {
-  overflow: hidden;
-  background-color: orange;
-  padding-top: 30px;
-  padding-bottom: 20px;
+    overflow: hidden;
+    background-color: orange;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 /* Style the topnav links */
 .topnav a {
-  float: left;
-  display: block;
-  color:white;
-  text-align: center;
-  padding: 30px 35px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #f7ca4d;
-  color: white;
-   padding: 25px;
+    background-color: #f7ca4d;
+    color: white;
+    padding: 25px;
 }
- .column {
-  float: left;
-  width: 50%;
-  padding: 5%;
-  height: 1px;
-  flex: auto;
-  }
+.column {
+    float: left;
+    width: 50%;
+    padding: 5%;
+    height: 1px;
+    flex: auto;
+}
 
 
 .row:after {
-  content: "";
-  padding: 5%;
-  display: flex;
-  clear: both;
+    content: "";
+    padding: 5%;
+    display: flex;
+    clear: both;
 }
 
 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+@media screen and (max-width : 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
 
 
-body {color: white;
-background-color: black;
-font-family: arial, helvetica, sans-serif;
-text-align: center;
+body {
+    color: white;
+    background-color: black;
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
 }
 
-h1{text-align: center}
+h1 {
+    text-align: center
+}
 /* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
 
 /*body section section { background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet); padding:2em;}
 body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
 
-p {padding:1em; line-height:2em;}
+p {
+    padding: 1em;
+    line-height: 2em;
+}
 
 body section.writing {
-    background-color:orange;
-    margin:auto;
-    padding:2em;
+    background-color: orange;
+    margin: auto;
+    padding: 2em;
 
-    display:flex;
-    flex-direction:row; 
+    display: flex;
+    flex-direction: row;
     /*justify-content:space-around;*/
 }
 
 section.writing figure {
-    flex:3;
+    flex: 3;
     padding: 1vw;
-    background-color:lemonchiffon;
+    background-color: lemonchiffon;
 }
 
 section.writing div.analysis {
-      flex:1; 
+    flex: 1;
     padding: 10px;
-    background-color:darkgrey;
-    color:white;
-    
+    background-color: darkgrey;
+    color: white;
+
 }
 
 
 body section.gallery {
-  width: 80%;
-    background-color: grey; 
-    padding:15em; 
-    margin:25px; 
-    display:flex;
-    flex-direction:row;
-    }
+    width: 80%;
+    background-color: grey;
+    padding: 15em;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+}
 
 
 
-section.gallery figure {flex: 1; margin:auto; padding-top: 1vw; padding-bottom: 1vw; }
+section.gallery figure {
+    flex: 1;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
 
-figcaption {font-style: italic; font-size: smaller; color: black}
+figcaption {
+    font-style: italic;
+    font-size: smaller;
+    color: black
+}
 
-img.photo {max-width:100%; width:80%}
+img.photo {
+    max-width: 100%;
+    width: 80%
+}
 /* If I want to style ANY element with the class of "photo" I could just write 
  * .photo { }
  *  */
 
-ol {list-style-type: circle;
-padding: 8em;
-    
+ol {
+    list-style-type: circle;
+    padding: 8em;
+
 }
 
 /* unvisited link */
 a:link {
-  color: grey;
+    color: grey;
 }
 
 /* visited link. I used a hexadecimal color code for something dark green that I picked from: 
  * https://www.w3schools.com/colors/colors_picker.asp  */
 a:visited {
-  color: white;
+    color: white;
 }
 
 /* mouse over link */
 a:hover {
-  color: orange;
+    color: orange;
 }
 
 /* selected link */
 a:active {
-  color: grey;
+    color: grey;
 }
 
- 
 
- 
+
